@@ -82,7 +82,8 @@
         android:paddingRight="15dp"
         android:paddingTop="15dp"
         android:paddingBottom="15dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        >
 
     <Button
         android:id="@+id/btnUp"
@@ -114,7 +115,7 @@
         android:id="@+id/btnClear"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_centerHorizontal="true"
+        android:gravity="center"
         android:text="Clear" />
 
     <ImageView
