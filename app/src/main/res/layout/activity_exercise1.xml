@@ -20,12 +20,13 @@
 
     <Spinner
         android:id="@+id/spinner"
-        android:layout_width="80dp"
+        android:layout_width="100dp"
         android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
         android:dropDownSelector="@android:drawable/arrow_down_float"
         android:foreground="@android:drawable/spinner_background"
-        android:layout_marginBottom="10dp"
-/>
+        android:minWidth="50dp" />
+
 
     <TextView
         android:id="@+id/textView3"
