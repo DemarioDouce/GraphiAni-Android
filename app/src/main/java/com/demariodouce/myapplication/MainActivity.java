@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -44,6 +45,16 @@ public class MainActivity extends AppCompatActivity implements MyRecyclerViewAda
 
     @Override
     public void onItemClick(View view, int position) {
-        Toast.makeText(this, "You clicked " + adapter.getItem(position) + " on row number " + position, Toast.LENGTH_SHORT).show();
+        if (position == 0) {
+            Intent intent = new Intent(this, Exercise1Activity.class);
+            startActivity(intent);
+        } else if (position == 1) {
+            Intent intent = new Intent(this, Exercise2Activity.class);
+            startActivity(intent);
+        } else {
+
+            Intent intent = new Intent(this, Exercise3Activity.class);
+            startActivity(intent);
+        }
     }
 }
