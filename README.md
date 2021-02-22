@@ -1,5 +1,5 @@
 # GraphiAni
 ---
 ## Screenshot
-![Mockup image.](/Mockups/MockupiMenuAPI.png)
+![Mockup image.](/Mockups/MockupGraphiAni.png)
 ---
